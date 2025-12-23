@@ -18,6 +18,7 @@ Hasta el momento se han utilizado los siguientes comandos de Git:
 ![Inicio del proyecto](https://github.com/user-attachments/assets/7422a12c-9ab5-4ae8-bea5-fe353d7383af)
 
 ---
+- Primero se clona el repositorio remoto en el equipo local mediante el comando: Git clone. 
 
 ## Pregunta 1
 
@@ -38,7 +39,8 @@ Esto permitiría **omitir el `git add .`**, siempre que los archivos ya existan 
 ![Creación de rama y merge](https://github.com/user-attachments/assets/fd2cc340-2100-4874-acf9-259e1ab60625)
 
 ---
-
+- Se crea el archivo README.md en el repositorio local:
+  
 ## Pregunta 2
 
 **¿El fichero y el directorio privado deben subirse al repositorio si están añadidos al archivo `.gitignore`? [Sí/No]. Justifica tu respuesta.**
@@ -53,6 +55,7 @@ Los archivos y directorios incluidos en el archivo `.gitignore` **no se suben al
 ![Rama v02 y archivos txt](https://github.com/user-attachments/assets/4c24727c-56e2-46dc-bebf-961d4aac5f89)
 
 ---
+- Se añaden los cambios y se realiza el primer commit, además de que se suben los cambios al repositorio remoto::
 
 ## Pregunta 3
 
@@ -70,7 +73,8 @@ Los archivos y directorios incluidos en el archivo `.gitignore` **no se suben al
 ---
 
 ## Pregunta 4
-
+- Se crea un archivo y una carpeta privada, además de que se añaden al archivo .gitignore para que Git los ignore:
+  
 **¿Qué es un tag en un repositorio Git (en este caso GitHub)? Justifica tu respuesta.**
 
 ### Respuesta
@@ -99,7 +103,7 @@ Las ramas secundarias permiten trabajar en nuevas funcionalidades, correcciones 
 ---
 
 ## Pregunta 6
-
+- Se vuelve a la rama principal y se hace el merge:
 **¿Se deberían producir conflictos en esta acción? [Sí/No]. Justifica tu respuesta.**
 
 ### Respuesta
@@ -116,6 +120,7 @@ Un `git push` previo no es la causa directa del conflicto, sino las diferencias 
 
 ![Preparando conflicto](https://github.com/user-attachments/assets/2b13ce88-be5d-4b9f-a017-341c3a517a4d)
 
+- Se edita el archivo para resolver el conflicto:
 ![Resolviendo conflicto con vim](https://github.com/user-attachments/assets/5ad2d8ce-a075-4ca9-8ef7-a1fefe2301d4)
 
 ![Pendiente de push](https://github.com/user-attachments/assets/22770bac-b310-49a2-a40c-f227bd7450eb)
