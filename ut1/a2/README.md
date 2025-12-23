@@ -39,4 +39,11 @@ public class Saludo {
     public static void main(String[] args) {
         System.out.println("Hola desde Markdown");
     }
-}
+}```
+
+
+### Imagenes del proceso
+
+<img width="1907" height="1000" alt="Captura de pantalla 2025-12-23 190021" src="https://github.com/user-attachments/assets/c0bcfc70-3915-454d-90a0-215c817d5fed" />
+<img width="1530" height="984" alt="Captura de pantalla 2025-12-23 190033" src="https://github.com/user-attachments/assets/e515ba3b-1ee2-454c-80a7-88d7325a9b35" />
+
